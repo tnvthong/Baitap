@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đang chuyển hướng đến trang làm bài...</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+        .loader { border: 5px solid #f3f3f3; border-top: 5px solid #3498db; border-radius: 50%; width: 50px; height: 50px; animation: spin 2s linear infinite; margin: 20px auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <p>Hệ thống đang chuyển hướng. Vui lòng đợi trong giây lát...</p>
+
+    <script>
+        // THAY LINK WEB APP CỦA BẠN VÀO DƯỚI ĐÂY
+        // Lưu ý: Hãy dùng link đã xóa sạch đoạn /u/0/ nếu có
+        const webAppUrl = "LINK_WEB_APP_GOOGLE_CỦA_BẠN";
+
+        // Lệnh chuyển hướng sạch
+        window.location.replace(webAppUrl);
+    </script>
+</body>
+</html>
